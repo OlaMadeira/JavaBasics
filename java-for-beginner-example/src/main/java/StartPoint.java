@@ -1,7 +1,5 @@
-import lesson.ClassLesson;
-import lesson.ConstructorLesson;
-import lesson.NullKey;
-import location.City;
+import location.Street;
+import location.StreetBuilder;
 
 /**
  * Класс содержащий main метод.
@@ -23,7 +21,9 @@ public class StartPoint {
         //NullLesson.startLessonExample();//09.04.2020
 //        ConstructorLesson.startLessonExample();
         //location.City c1 = new City("vrn", 7);
-        NullKey.nullKey();
+        //NullKey.nullKey();
+        StreetBuilder.streets();
+
 
 
     }
